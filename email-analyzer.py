@@ -273,7 +273,7 @@ def main():
         ban=pyfiglet.figlet_format("Email Analyzer")
     except:
         print("Failed to detect pyfiglet.\n")
-        ban="Email Analyzer by Sarvesh and Pranooo"
+        ban="Email Analyzer"
 
 
     if len(sys.argv) < 2 or len(sys.argv) > 2:
